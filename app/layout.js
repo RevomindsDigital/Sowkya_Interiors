@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Sowkya Interiors Hyderabad's premier interior design studios, we specialize in transforming spaces into luxurious, highly functional environments." />
         {/* <link rel="icon" type="image/x-icon" href="./favicon.ico"/> */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />

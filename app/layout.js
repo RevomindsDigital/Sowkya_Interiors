@@ -4,11 +4,11 @@ import "./globals.css";
 
 export const metadata = {
   title: "Sowkya Interiors",
-  description: "Tag line",
+  description: "Hyderabad's premier interior design studios, we specialize in transforming spaces into luxurious, highly functional environments.",
   icons: {
     icon: './favicon.ico',
   },
-  keywords: ['sowkya','sowkya interiors'],
+  keywords: ['sowkya','sowkya interiors', 'interior design', 'interior design studio', 'hyderabad interior design', 'luxury interiors', 'functional spaces', 'home decor', 'office interiors', 'residential design', 'commercial design', 'modern interiors', 'traditional interiors', 'custom furniture', 'space planning', 'renovation services', 'interior styling', 'design consultancy', 'sustainable design', '3D rendering', 'project management'],
 };
 
 export default function RootLayout({ children }) {

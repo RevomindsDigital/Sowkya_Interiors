@@ -88,7 +88,7 @@ const packageOffered = [
 const benifits = [
   {
     title: 'SINCE',
-    desc: '2004'
+    desc: '2018'
   },
   {
     title: 'PREMIUM',
@@ -100,7 +100,7 @@ const benifits = [
   },
   {
     title: 'COMPLETION',
-    desc: '40 Working Days'
+    desc: '60 Working Days'
   },
   {
     title: 'LIFELONG',
@@ -117,13 +117,13 @@ const projectsCompleted = [
     typeOf: '3BHK',
     location: 'Kismatpur'
   },
-  {
-    clientProjectImg: '',
-    clientImg: '',
-    clientName: 'Shaik Rafi',
-    typeOf: '3BHK',
-    location: 'Kismatpur'
-  },
+  // {
+  //   clientProjectImg: '',
+  //   clientImg: '',
+  //   clientName: 'Shaik Rafi',
+  //   typeOf: '3BHK',
+  //   location: 'Kismatpur'
+  // },
   {
     clientProjectImg: '',
     clientImg: '',
@@ -402,8 +402,8 @@ export default function Home() {
       <div className="project_in_mind text-[#fffbf5]">
         <div className="w-full sm:w-3/4 px-[24px] py-[34px] lg:px-[40px] lg:py-[40px] xl:p-[60px]">
           <h3 className="text-3xl md:text-4xl xl:text-5xl font-bold">Have a project in mind?</h3>
-          <p className="text-md sm:text-lg mt-4 mb-6 sm:mb-9">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
-          <button className="uppercase bg-[#FFAB4B] text-[#743F00] font-bold text-sm px-8 py-2 rounded cursor-pointer hover:bg-[#f79c34] transition-all">contact us</button>
+          <p className="text-md sm:text-lg mt-4 mb-6 sm:mb-9">Sowkya Interiors from planning to execution, we design spaces that balance aesthetics with functionality.</p>
+          <ScrollLink to="contactUs" smooth={true} duration={500} className="uppercase bg-[#FFAB4B] text-[#743F00] font-bold text-sm px-8 py-2 rounded cursor-pointer hover:bg-[#f79c34] transition-all">contact us</ScrollLink>
         </div>
       </div>
 
@@ -488,7 +488,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-[#EE2128] font-medium">Mail us</p>
-                  <a href="#" className="font-semibold hover:text-[#eb9d3a]">sowkyainteriors@gmail.com</a>
+                  <a href="mailto:info@sowkyainteriors.com" className="font-semibold hover:text-[#eb9d3a]">info@sowkyainteriors.com</a>
                 </div>
               </div>
               <div className="flex items-center gap-2 xl:gap-4">
@@ -497,7 +497,8 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-[#EE2128] font-medium">Call us</p>
-                  <a href="#" className="font-semibold hover:text-[#eb9d3a]">9391 900 400</a>
+                  <a href="tel:8142001888" className="font-semibold hover:text-[#eb9d3a]">8142 001 888</a><br/>
+                  <a href="tel:8142009888" className="font-semibold hover:text-[#eb9d3a]">8142 009 888</a>
                 </div>
               </div>
               <div className="flex items-center gap-2 xl:gap-4">
@@ -506,7 +507,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-[#EE2128] font-medium">Address</p>
-                  <a href="#" className="font-semibold hover:text-[#eb9d3a]">Sowkya Interiors, <br />Near by LV Prasad Eye Institute, <br /> Behind Prestige Villas, Kismatpur, <br /> Bandlaguda jagir Municipality, <br /> RR – 500086</a>
+                  <a href="#" className="font-semibold">Sowkya Interiors, <br />Near by LV Prasad Eye Institute, <br /> Behind Prestige Villas, Kismatpur, <br /> Bandlaguda jagir Municipality, <br /> RR – 500086</a>
                 </div>
               </div>
             </div>
